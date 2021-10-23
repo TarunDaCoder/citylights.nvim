@@ -1,7 +1,7 @@
 lua << EOF
 -- Source Config
--- local plugin_path = vim.fn.stdpath('config')
--- require(plugin_path .. '/init.lua')
+local plugin_path = vim.fn.stdpath('config')
+require(plugin_path .. '/init.lua')
 
 package.loaded['citylights'] = nil
 package.loaded['citylights.util'] = nil
