@@ -3,12 +3,12 @@ lua << EOF
 -- local plugin_path = vim.fn.stdpath('config')
 -- require(plugin_path .. '/init.lua')
 
-package.loaded['calvera'] = nil
-package.loaded['calvera.util'] = nil
-package.loaded['calvera.colors'] = nil
-package.loaded['calvera.theme'] = nil
-package.loaded['calvera.functions'] = nil
+package.loaded['citylights'] = nil
+package.loaded['citylights.util'] = nil
+package.loaded['citylights.colors'] = nil
+package.loaded['citylights.theme'] = nil
+package.loaded['citylights.functions'] = nil
 
-vim.g.calvera_transparentbg = false
-require('calvera').set()
+vim.g.citylights_transparentbg = false
+require('citylights').set()
 EOF
