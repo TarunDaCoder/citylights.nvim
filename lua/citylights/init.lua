@@ -1,10 +1,6 @@
 local util = require('citylights.util')
-local theme = require('citylights.theme')
 
-local M = {}
+-- Load the theme
+local set = function() util.load() end
 
-function M.colorscheme()
-  util.load(theme.setup())
-end
-
-return M
+return {set = set}
