@@ -233,7 +233,7 @@ theme.loadTreeSitter = function ()
         TSLabel =                   { fg = citylights.red }, -- For labels: `label:` in C and `:label:` in Lua.
         TSNamespace =               { fg = citylights.paleblue }, -- For identifiers referring to modules and namespaces.
         TSNumber =                  { fg = citylights.orange }, -- For all numbers
-        TSOperator =                { fg = citylights.yellow }, -- For any operator: `+`, but also `->` and `*` in C.
+        TSOperator =                { fg = citylights.paleblue }, -- For any operator: `+`, but also `->` and `*` in C.
         TSParameter =               { fg = citylights.paleblue }, -- For parameters of a function.
         TSParameterReference=       { fg = citylights.paleblue }, -- For references to parameters of a function.
         TSProperty =                { fg = citylights.paleblue }, -- Same as `TSField`,accesing for struct members in C.

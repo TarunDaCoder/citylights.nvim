@@ -1,22 +1,22 @@
 -- LuaFormatter off
 local citylights = {
 	-- Common colors
-	white    =		'#b7c5d3',
+	white    =      '#b7c5d3',
 	gray     =      '#262626',
-	black    = 		'#41505e',
-	red      =   	'#ee3a43',
-	green    = 		'#8bd49c',
-	yellow   =		'#d98e48',
-	blue     =  	'#5ec4ff',
-	paleblue =		'#539afc',
-	cyan     =  	'#008b94',
-	purple   =		'#b62d65',
-	orange   =		'#cd853f',
-	pink     =  	'#af005f',
+	black    =      '#41505e',
+	red      =      '#ee3a43',
+	green    =      '#8bd49c',
+	yellow   =      '#d98e48',
+	blue     =      '#5ec4ff',
+	paleblue =      '#539afc',
+	cyan     =      '#008b94',
+	purple   =      '#b62d65',
+	orange   =      '#cd853f',
+	pink     =      '#af005f',
 
-	error    =		'#d95468',
-	link     =		'#5ec4ff',
-	cursor   =		'#5ec4ff',
+	error    =      '#d95468',
+	link     =      '#5ec4ff',
+	cursor   =      '#5ec4ff',
 
 	none     =      'NONE'
 }
