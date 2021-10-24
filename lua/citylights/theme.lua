@@ -232,7 +232,7 @@ theme.loadTreeSitter = function ()
         TSInclude =                 { fg = citylights.cyan }, -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
         TSLabel =                   { fg = citylights.red }, -- For labels: `label:` in C and `:label:` in Lua.
         TSNamespace =               { fg = citylights.paleblue }, -- For identifiers referring to modules and namespaces.
-        TSNumber =                  { fg = citylights.orange }, -- For all numbers
+        TSNumber =                  { fg = citylights.cyan }, -- For all numbers
         TSOperator =                { fg = citylights.paleblue }, -- For any operator: `+`, but also `->` and `*` in C.
         TSParameter =               { fg = citylights.paleblue }, -- For parameters of a function.
         TSParameterReference=       { fg = citylights.paleblue }, -- For references to parameters of a function.
