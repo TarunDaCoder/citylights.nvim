@@ -29,7 +29,7 @@ local citylights = {
 citylights.bg =			  '#181e24'
 citylights.bg_alt =		  '#181e24'
 citylights.fg =			  '#9fb2c3'
-citylights.text =		  '#0d1426'
+citylights.text =		  '#9fb2c3'
 citylights.comments =	  '#3b4d57'
 citylights.selection = 	  '#28323b'
 citylights.contrast =	  '#9eaeba'
@@ -45,7 +45,7 @@ citylights.popupbg = '#1c3042'
 citylights.popupbgActive = '#293a4e'
 citylights.refTextBg = '#02244d'
 citylights.refTextFg = '#aacfdf'
-citylights.nvimTreeTxt = '#0d1426'
+citylights.nvimTreeTxt = '#9fb2c3'
 citylights.cursorLineBG = citylights.active
 -- Optional colors
 
